@@ -2,8 +2,8 @@ resources:
   - name: basic_node_repo
     type: GitRepo
     configuration:
-      gitProvider: manishas_github
-      path: devops-recipes/basic-node
+      gitProvider: NodeBasicApp
+      path: cob04/basic-node
       
 pipelines:
   - name: basic_node_pipeline
